@@ -519,7 +519,7 @@ document.addEventListener("DOMContentLoaded", () => {
         title.innerHTML = ""; // Kosongkan teks bawaan HTML agar bisa diketik ulang dari nol
         
         const part1 = "Hi, I'm ";
-        const part2 = "Jujun";
+        const part2 = "Junnn";
         let currentText = "";
         let i = 0;
         let j = 0;
