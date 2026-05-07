@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jujun J. - Visual Creator Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="glow-container">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <header>
+        <a href="#" class="logo">
+            <img src="logov2.png" alt="Juxone Logo" class="logo-img">
+        </a>
+        
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-container">
+            
+            <div class="hero-text">
+                <p class="hero-subtitle">Graphic Designer | Visual Creator</p>
+                <h1 class="hero-title">Hi, I'm <span>Jujun</span></h1>
+                
+                <p class="hero-desc">
+                    Graphic Designer & Video Editor dengan spesialisasi pada konten digital dan visual branding. Terbiasa mengolah desain kreatif, video editing, serta 3D Model untuk menghasilkan konten yang menarik, profesional, dan relevan dengan kebutuhan brand.
+                </p>
+                
+                <div class="btn-group">
+                    <a href="#" class="btn-primary"><i class="bx bxs-file-pdf"></i> Download CV</a>
+                    <a href="#portfolio" class="btn-minimal">Portfolio</a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <div class="img-box">
+                    <img src="profilev2.png" alt="Foto Jujun">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h2 id="dynamic-title" class="section-title fade-text">My Projects</h2>
+        
+       <div class="portfolio-tabs-wrapper">
+            <div class="portfolio-tabs">
+                <div class="tab-indicator" id="tab-indicator"></div>
+                
+                <button class="tab-btn active" onclick="showTab('projects', event)"><i class="bx bx-palette"></i> Projects</button>
+                <button class="tab-btn" onclick="showTab('experience', event)"><i class="bx bx-briefcase"></i> Experience</button>
+                <button class="tab-btn" onclick="showTab('skills', event)"><i class="bx bx-extension"></i> Skills</button>
+                <button class="tab-btn" onclick="showTab('clients', event)"><i class="bx bx-group"></i> Clients</button>
+                <button class="tab-btn" onclick="showTab('achievements', event)"><i class="bx bx-trophy"></i> Achievements</button>
+            </div>
+        </div>
+
+       <div id="projects" class="tab-content active-content grid-container">
+    
+<div class="card">
+    <div class="card-img">
+        <img src="Pengembangan.png" alt="Foto Project 01">
+    </div>
+    <div class="card-body">
+        <h3>Project Preview</h3>
+        <p>Deskripsi dan detail untuk proyek ini sedang dalam tahap pengembangan dan akan segera diperbarui.</p>
+        
+        <button class="btn-detail" onclick="openProjectDetail('Project Preview', 'Deskripsi dan detail untuk proyek ini sedang dalam tahap pengembangan dan akan segera diperbarui.', 'Pengembangan.png')">
+            Lihat Detail <i class="bx bx-show"></i>
+        </button>
+        
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-img">
+        <img src="Pengembangan.png" alt="Foto Project 01">
+    </div>
+    <div class="card-body">
+        <h3>Project Preview</h3>
+        <p>Deskripsi dan detail untuk proyek ini sedang dalam tahap pengembangan dan akan segera diperbarui.</p>
+        
+        <button class="btn-detail" onclick="openProjectDetail('Project Preview', 'Deskripsi dan detail untuk proyek ini sedang dalam tahap pengembangan dan akan segera diperbarui.', 'Pengembangan.png')">
+            Lihat Detail <i class="bx bx-show"></i>
+        </button>
+        
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-img">
+        <img src="Pengembangan.png" alt="Foto Project 01">
+    </div>
+    <div class="card-body">
+        <h3>Project Preview</h3>
+        <p>Deskripsi dan detail untuk proyek ini sedang dalam tahap pengembangan dan akan segera diperbarui.</p>
+        
+        <button class="btn-detail" onclick="openProjectDetail('Project Preview', 'Deskripsi dan detail untuk proyek ini sedang dalam tahap pengembangan dan akan segera diperbarui.', 'Pengembangan.png')">
+            Lihat Detail <i class="bx bx-show"></i>
+        </button>
+        
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-img">
+        <img src="Pengembangan.png" alt="Foto Project 01">
+    </div>
+    <div class="card-body">
+        <h3>Project Preview</h3>
+        <p>Deskripsi dan detail untuk proyek ini sedang dalam tahap pengembangan dan akan segera diperbarui.</p>
+        
+        <button class="btn-detail" onclick="openProjectDetail('Project Preview', 'Deskripsi dan detail untuk proyek ini sedang dalam tahap pengembangan dan akan segera diperbarui.', 'Pengembangan.png')">
+            Lihat Detail <i class="bx bx-show"></i>
+        </button>
+        
+    </div>
+</div>
+
+</div>
+
+   <div id="experience" class="tab-content grid-container">
+
+    <div id="experience-lock-screen" class="experience-lock-wrapper">
+        <div class="password-modal-box" id="password-box">
+            <div class="lock-icon-wrapper">
+                <i class='bx bxs-lock-alt'></i>
+            </div>
+            <h3>Restricted Access</h3>
+            <p>Konten ini bersifat rahasia. Masukkan kata sandi untuk melihat detail pengalaman kerja.</p>
+            
+            <div class="password-input-container">
+                <div class="input-with-eye">
+                    <input type="password" id="exp-password-input" placeholder="Masukkan Password...">
+                    <i class='bx bx-hide' id="toggle-password-eye" onclick="togglePasswordVisibility()"></i>
+                </div>
+                
+                <button type="button" class="unlock-btn" onclick="verifyExperiencePassword()">
+                    <i class='bx bx-key'></i> Buka Kunci
+                </button>
+            </div>
+            <span id="password-error" class="password-error-msg">Password salah, silakan coba lagi!</span>
+        </div>
+    </div>
+
+    <div id="experience-hidden-content" class="experience-blur-content">
+        
+        <div class="roadmap-wrapper">
+            
+            <div class="roadmap-timeline-area">
+                <div class="roadmap-line"></div>
+                <div class="roadmap-nodes">
+                    <button type="button" class="roadmap-node node-1 active" onclick="activateMilestone(1)"><span class="node-num">01</span></button>
+                    <button type="button" class="roadmap-node node-2" onclick="activateMilestone(2)"><span class="node-num">02</span></button>
+                    <button type="button" class="roadmap-node node-3" onclick="activateMilestone(3)"><span class="node-num">03</span></button>
+                    <button type="button" class="roadmap-node node-4" onclick="activateMilestone(4)"><span class="node-num">04</span></button>
+                    <button type="button" class="roadmap-node node-5" onclick="activateMilestone(5)"><span class="node-num">05</span></button>
+                    <button type="button" class="roadmap-node node-6" onclick="activateMilestone(6)"><span class="node-num">06</span></button>
+                </div>
+            </div>
+
+            <div class="roadmap-details-area">
+                
+                <div class="experience-card active" id="exp-1">
+                    <span class="exp-badge">2023 - Sekarang</span>
+                    <h3>Freelance Graphic Designer</h3>
+                    <h4 class="company-name">Various Clients & UMKM</h4>
+                    <ul class="exp-bullets">
+                        <li>Membuat berbagai desain untuk klien individu & UMKM (feed Instagram, poster, branding ringan, thumbnail, materi promosi).</li>
+                        <li>Menyesuaikan gaya visual secara fleksibel dengan identitas brand masing-masing klien.</li>
+                        <li>Mengelola end-to-end workflow dari mulai brainstorming konsep, revisi, hingga final delivery.</li>
+                    </ul>
+                </div>
+
+                <div class="experience-card" id="exp-2">
+                    <span class="exp-badge">Juli - Desember 2023</span>
+                    <h3>3D Modeller (Internship)</h3>
+                    <h4 class="company-name">Patopo Animation Studios | Kota Bandung</h4>
+                    <ul class="exp-bullets">
+                        <li>Membuat asset 3D (karakter & properti) untuk kebutuhan film animasi.</li>
+                        <li>Memodelkan bentuk highpoly-lowpoly menggunakan Blender secara detail.</li>
+                        <li>Berkoordinasi dengan Concept Artist, Lead, dan Supervisor untuk menjaga konsistensi kualitas pipeline.</li>
+                    </ul>
+                </div>
+
+                <div class="experience-card" id="exp-3">
+                    <span class="exp-badge">Juni - Oktober 2024</span>
+                    <h3>Video Editor & Graphic Designer</h3>
+                    <h4 class="company-name">Kapten Liong - YouTube Channel | Tangerang</h4>
+                    <ul class="exp-bullets">
+                        <li>Mengedit video YouTube bertema gaming serta konten vertikal kreatif.</li>
+                        <li>Mendesain thumbnail YouTube guna meningkatkan rasio CTR secara signifikan.</li>
+                    </ul>
+                </div>
+
+                <div class="experience-card" id="exp-4">
+                    <span class="exp-badge">November 2024 - April 2025</span>
+                    <h3>Video Editor & Graphic Designer</h3>
+                    <h4 class="company-name">Huffadz Center - Ma'had Sabilul Qur'an | Bogor</h4>
+                    <ul class="exp-bullets">
+                        
+                        <li><strong></strong> Mengedit dokumentasi kegiatan, membuat desain sosial media, thumbnail, serta shooting konten dakwah digital.</li>
+                    </ul>
+                </div>
+
+                <div class="experience-card" id="exp-5">
+                    <span class="exp-badge">Januari - Desember 2025</span>
+                    <h3>Render Wrangler & 3D Modeller</h3>
+                    <h4 class="company-name">Patopo Animation Studios | Kota Bandung</h4>
+                    <ul class="exp-bullets">
+                        <li><strong>Render Wrangler:</strong> Mengelola rendering film, berkoordinasi dengan tim teknis, dan troubleshoot shot error.</li>
+                        <li><strong>3D Modeller:</strong> Mengembangkan 3D asset karakter, environment, dan properti untuk produksi film animasi.</li>
+                    </ul>
+                </div>
+
+                <div class="experience-card" id="exp-6">
+                    <span class="exp-badge">Januari 2026 - Sekarang</span>
+                    <h3>Digital Marketing, Designer & Editor</h3>
+                    <h4 class="company-name">PT. Nifa Persada Teknindo | Bogor</h4>
+                    <ul class="exp-bullets">
+                        <li>Mengelola ekosistem media sosial perusahaan secara end-to-end.</li>
+                        <li>Menjaga konsistensi visual branding pada seluruh kanal promosi digital.</li>
+                        <li>Memproduksi konten visual teknis industri (workshop, fabrikasi, edukasi engineering) untuk branding korporat.</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        </div> </div>
+
+        <div id="skills" class="tab-content grid-container">
+    <div class="skills-wrapper">
+        
+        <div class="skills-sub-toggle">
+            <button class="sub-tab-btn active" onclick="toggleSubSkill('disciplines', event)">
+                <i class="bx bx-paint-roll"></i> Creative Disciplines
+            </button>
+            <button class="sub-tab-btn" onclick="toggleSubSkill('software', event)">
+                <i class="bx bx-code-block"></i> Software & Tools
+            </button>
+        </div>
+
+        <div id="sub-disciplines" class="sub-skill-content active-sub-content">
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon-box">
+                        <i class="bx bx-palette"></i>
+                    </div>
+                    <h3>Desain Grafis</h3>
+                    <p>Membuat kebutuhan visual mulai dari konten media sosial, materi promosi, hingga pengembangan identitas brand yang konsisten dan menarik secara visual.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon-box">
+                        <i class="bx bx-video-recording"></i>
+                    </div>
+                    <h3>Video Editing</h3>
+                    <p>Mengolah footage menjadi video yang lebih dinamis dan engaging untuk kebutuhan YouTube, Reels, TikTok, company profile, hingga konten promosi digital.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon-box">
+                        <i class="bx bx-cube"></i>
+                    </div>
+                    <h3>3D Modelling</h3>
+                    <p>Mengerjakan pembuatan aset visual 3D, mulai dari modelling karakter dan object, environment setup, sampai proses rendering untuk kebutuhan visual kreatif.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon-box">
+                        <i class="bx bx-camera"></i>
+                    </div>
+                    <h3>Photography</h3>
+                    <p>Berpengalaman dalam pengambilan foto produk, portrait, dokumentasi kegiatan, hingga kebutuhan visual branding dengan hasil yang detail dan profesional.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon-box">
+                        <i class="bx bx-movie-play"></i>
+                    </div>
+                    <h3>Videography</h3>
+                    <p>Mengatur proses pengambilan video dari sisi framing, movement kamera, hingga penyusunan visual agar menghasilkan footage yang lebih cinematic dan komunikatif.</p>
+                </div>
+            </div>
+        </div>
+
+       <div id="sub-software" class="sub-skill-content">
+            <div class="software-grid">
+                <div class="soft-card">
+                    <img src="photoshop.png" alt="Adobe Photoshop Logo" class="soft-logo-img">
+                    <span>Adobe Photoshop</span>
+                </div>
+                <div class="soft-card">
+                    <img src="premiere.png" alt="Adobe Premiere Pro Logo" class="soft-logo-img">
+                    <span>Adobe Premiere Pro</span>
+                </div>
+                <div class="soft-card">
+                    <img src="aftereffects.png" alt="Adobe After Effects Logo" class="soft-logo-img">
+                    <span>Adobe After Effects</span>
+                </div>
+                <div class="soft-card">
+                    <img src="figma.png" alt="Figma Logo" class="soft-logo-img">
+                    <span>Figma</span>
+                </div>
+                <div class="soft-card">
+                    <img src="canva.png" alt="Canva Logo" class="soft-logo-img">
+                    <span>Canva</span>
+                </div>
+                <div class="soft-card">
+                    <img src="capcut.png" alt="CapCut Logo" class="soft-logo-img">
+                    <span>CapCut</span>
+                </div>
+               <div class="soft-card">
+                    <img src="davinci.png" alt="DaVinci Resolve" class="soft-logo-img">
+                    <span>DaVinci Resolve</span>
+                </div> <div class="soft-card">
+                    <img src="affinity.png" alt="Affinity Designer" class="soft-logo-img affinity-icon">
+                    <span>Affinity Designer</span>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <div id="clients" class="tab-content grid-container">
+    <div class="clients-wrapper">
+        
+        <div class="clients-slider-container">
+            <div class="clients-slider">
+                
+                <div class="client-logo-card">
+                    <img src="NFA.png" alt="Client 01 Logo" class="client-logo-img" onerror="this.style.display='none'">
+                    <span>PT. NIFA PERSADA TEKNINDO </span>
+                </div>
+                
+                <div class="client-logo-card">
+                    <img src="MSQ.png" alt="Client 02 Logo" class="client-logo-img" onerror="this.style.display='none'">
+                    <span>Ma'had Sabilul Qur'an </span>
+                </div>
+                
+                <div class="client-logo-card">
+                    <img src="THOYYIBAH LOGO 2.png" alt="Client 03 Logo" class="client-logo-img" onerror="this.style.display='none'">
+                    <span>Islamic Center Thoyyibah </span>
+                </div>
+                
+                <div class="client-logo-card">
+                    <img src="MARKAZ.png" alt="Client 04 Logo" class="client-logo-img" onerror="this.style.display='none'">
+                    <span>Markaz Studi Al-Qur'an</span>
+                </div>
+
+                <div class="client-logo-card">
+                    <img src="SORALUXE.png" alt="Client 05 Logo" class="client-logo-img" onerror="this.style.display='none'">
+                    <span>SORALUXE</span>
+                </div>
+
+                   <div class="client-logo-card">
+                    <img src="Hypeluxe.png" alt="Client 05 Logo" class="client-logo-img" onerror="this.style.display='none'">
+                    <span>HypeLuxe</span>
+                </div>
+
+                <div class="client-logo-card">
+                    <img src="SNEACKERS.png" alt="Client 06 Logo" class="client-logo-img" onerror="this.style.display='none'">
+                    <span>Sneakers Society</span>
+                </div>
+
+                <div class="client-logo-card">
+                    <img src="PRIMA SENTRA.png" alt="Client 07 Logo" class="client-logo-img" onerror="this.style.display='none'">
+                    <span>Prima Sentra</span>
+                </div>
+
+                <div class="client-logo-card">
+                    <img src="KICK.png" alt="Client 08 Logo" class="client-logo-img" onerror="this.style.display='none'">
+                    <span>Kick Sneakers</span>
+                </div>
+
+                <div class="client-logo-card">
+                    <img src="JANGKAR.png" alt="Client 09 Logo" class="client-logo-img" onerror="this.style.display='none'">
+                    <span>Jangkar SMKN'1S</span>
+                </div>
+
+                <div class="client-logo-card">
+                    <img src="CHELIVERSE.png" alt="Client 10 Logo" class="client-logo-img" onerror="this.style.display='none'">
+                    <span>Cheliverse</span>
+                </div>
+
+                <div class="client-logo-card">
+                    <img src="BONITA.png" alt="Client 10 Logo" class="client-logo-img" onerror="this.style.display='none'">
+                    <span>Bonita Viona</span>
+                </div>
+
+                <div class="client-logo-card">
+                    <img src="elegan.png" alt="Client 10 Logo" class="client-logo-img" onerror="this.style.display='none'">
+                    <span>Elegan Sportswear</span>
+                </div>
+                
+                 <div class="client-logo-card">
+                    <img src="Lucid.png" alt="Client 10 Logo" class="client-logo-img" onerror="this.style.display='none'">
+                    <span>Lucid Dreams</span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="clients-notes">
+            <p><i class="bx bx-info-circle"></i> Catatan: Sebagian besar portofolio kerja sama di atas dikerjakan dalam kapasitas sebagai <strong>freelance</strong> profesional.</p>
+        </div>
+
+    </div>
+</div>
+
+<div id="achievements" class="tab-content grid-container">
+            <div class="achievements-focused-wrapper">
+                
+                <div class="achievement-focused-item">
+                    <div class="achievement-card-straight">
+                        <div class="ach-straight-icon-box">
+                            <i class="bx bx-film"></i>
+                        </div>
+                        <div class="ach-straight-text-area">
+                            <span class="ach-focused-year">2025</span>
+                            <h3>Credit Title: Render Wrangler</h3>
+                            <h4 class="ach-focused-org">Pol The Pirate Mouse (Animation Series)</h4>
+                            <p>Terlibat dalam proyek animasi produksi Belanda. Bertanggung jawab mengelola pipeline rendering, troubleshoot error pada shot animasi, dan memastikan distribusi render farm berjalan efisien sesuai deadline.</p>
+                        </div>
+                        <div class="ach-straight-cert-area">
+                            <img 
+                                src="Credit-POL.jpg" 
+                                alt="Pol The Pirate Mouse Credit Title" 
+                                class="ach-focused-cert-img clickable-img" 
+                                onclick="openImageModal(this.src)" 
+                                onerror="this.src='https://via.placeholder.com/300x200?text=Credit+Title+Coming+Soon';this.classList.remove('clickable-img');this.onclick=null;"
+                            >
+                        </div>
+                    </div>
+                </div>
+
+                <div class="achievement-focused-item">
+                    <div class="achievement-card-straight">
+                        <div class="ach-straight-icon-box">
+                            <i class="bx bx-trophy"></i>
+                        </div>
+                        <div class="ach-straight-text-area">
+                            <span class="ach-focused-year">2024</span>
+                            <h3>Juara 2 Lomba Video Salam Lebaran</h3>
+                            <h4 class="ach-focused-org">Yayasan Amaliah Astra</h4>
+                            <p>Meraih peringkat ke-2 dalam kompetisi pembuatan video pendek kreatif. Penilaian berfokus pada kekuatan aspek storytelling, kualitas video editing, serta penyampaian pesan nilai-nilai ramadan yang hangat.</p>
+                        </div>
+                        <div class="ach-straight-cert-area">
+                            <img 
+                                src="sertifikat-astra.jpg" 
+                                alt="Sertifikat Juara 2 Astra" 
+                                class="ach-focused-cert-img clickable-img" 
+                                onclick="openImageModal(this.src)" 
+                                onerror="this.src='https://via.placeholder.com/150x200?text=Sertifikat';"
+                            >
+                        </div>
+                        <div class="ach-straight-btn-area">
+                            <button class="btn-focused-video" onclick="toggleAchievementVideo('video-focused-astra', this)">
+                                <span class="btn-text">Lihat Video Kemenangan</span> <i class="bx bx-chevron-down"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="ach-focused-video-reveal" id="video-focused-astra">
+                        <div class="focused-video-wrapper">
+                            <iframe 
+                                src="https://www.instagram.com/reel/DIYFWvRzd19/" 
+                                title="Instagram video player" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+<div class="rating-container">
+        
+        <div id="submitted-rating-display" class="submitted-rating-box hidden">
+            <h4>Penilaian Kamu:</h4>
+            <div class="stars-display" id="stars-result"></div>
+            <p id="comment-result" class="submitted-comment"></p>
+            <p class="thank-you-text">Terima kasih banyak atas masukannya!</p>
+        </div>
+
+        <div id="rating-input-box" class="rating-box">
+            <h3>Berikan Penilaian</h3>
+            <p>Bagaimana pendapatmu tentang portofolioku?</p>
+            
+            <div class="stars-input" id="stars-selector">
+                <i class='bx bx-star star-btn' data-value="1"></i>
+                <i class='bx bx-star star-btn' data-value="2"></i>
+                <i class='bx bx-star star-btn' data-value="3"></i>
+                <i class='bx bx-star star-btn' data-value="4"></i>
+                <i class='bx bx-star star-btn' data-value="5"></i>
+            </div>
+
+            <div class="comment-section hidden" id="comment-section">
+                <input type="text" id="rating-name" placeholder="Nama kamu (Opsional)">
+                <textarea id="rating-comment" rows="3" placeholder="Tulis pendapat atau saranmu di sini (Opsional)..."></textarea>
+                <button type="button" class="btn-submit-rating" id="submit-rating-btn">Kirim Penilaian</button>
+            </div>
+        </div>
+
+        <div id="all-comments-area" class="all-ratings-box">
+            <h4>Kata Mereka:</h4>
+            <div id="global-comments-list" class="global-comments-grid">
+                <p style="color: #94a3b8; font-size: 13px; text-align: center;">Belum ada penilaian. Jadilah yang pertama!</p>
+            </div>
+        </div>
+
+    </div>
+
+   <section id="contact">
+    <div class="contact-modern-wrapper">
+        
+        <div class="contact-form-area">
+            
+            <div class="contact-social-top">
+                <div class="contact-social-stack-horizontal">
+                    <a href="https://www.instagram.com/junichiiroo_/" target="_blank" title="Instagram" class="contact-socmed-link ig-glow">
+                        <i class="bx bxl-instagram"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/jujun-j-6b8373308/" target="_blank" title="LinkedIn" class="contact-socmed-link linkedin-glow">
+                        <i class="bx bxl-linkedin"></i>
+                    </a>
+                    <a href="https://wa.me/6285703162515" target="_blank" title="WhatsApp" class="contact-socmed-link wa-glow">
+                        <i class="bx bxl-whatsapp"></i>
+                    </a>
+                    <a href="mailto:junnnworking@gmail.com" target="_blank" title="Email" class="contact-socmed-link email-glow">
+                        <i class="bx bx-envelope"></i>
+                    </a>
+                </div>
+            </div>
+
+            <h2 class="glow-text">Let's Work Together</h2>
+            
+            <form action="#">
+                <div class="input-grid">
+                    <input type="text" placeholder="Nama" required>
+                    <input type="email" placeholder="Email" required>
+                </div>
+                
+                <div class="input-single-row">
+                    <input type="tel" placeholder="WhatsApp Number" required>
+                </div>
+                
+                <textarea rows="5" placeholder="Pesan" required></textarea>
+                
+                <button type="submit" class="btn btn-glow contact-submit-btn">Send Message</button>
+            </form>
+        </div>
+
+    </div>
+</section>
+  <footer>
+    <div class="footer-container">
+        <p>&copy; 2026 Juxone | Jujun Junaedi. All Rights Reserved.</p>
+    </div>
+</footer>
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <script src="script.js"></script>
+
+<div id="projectModal" class="modal-overlay">
+        <div class="modal-box">
+            <span class="close-modal" onclick="closeProjectDetail()"><i class="bx bx-x"></i></span>
+            <div class="modal-content-grid">
+                
+                <div class="modal-img-area">
+                    <img id="modal-image" src="" alt="Detail Project" style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
+                </div>
+
+                <div class="modal-text-area">
+                    <h2 id="modal-title">Project Title</h2>
+                    <div class="modal-divider"></div>
+                    <p id="modal-desc">Deskripsi dan detail untuk proyek ini sedang dalam tahap pengembangan dan akan segera diperbarui.</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+<div id="imageModal" class="modal-overlay">
+    <div class="modal-box modal-box-image">
+        <span class="close-modal" onclick="closeImageModal()"><i class="bx bx-x"></i></span>
+        <img src="" id="largeImage" alt="Zoomed Achievement Image" class="zoomed-image">
+    </div>
+</div>
+
+</body>
+</html>
