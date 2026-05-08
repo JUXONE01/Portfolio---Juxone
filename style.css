@@ -297,22 +297,16 @@ footer p { color: var(--text-muted, #94a3b8); font-size: 14px; font-weight: 500;
 .thank-you-text { color: #94a3b8 !important; font-size: 12px; }
 
 /* Tampilan Semua Komentar (Manual Slide ala Klien Logo) */
-.all-ratings-box { width: 100%; margin-top: 20px; text-align: left; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
-.all-ratings-box::-webkit-scrollbar { display: none; }
+.all-ratings-box { width: 100%; margin-top: 20px; text-align: left; }
 .all-ratings-box h4 { color: #f8fafc; margin-bottom: 15px; font-size: 16px; padding-left: 5px; border-left: 3px solid #06b6d4; }
-
-/* Dibuat sejajar horizontal dengan flex-direction: row, tanpa animasi */
-.global-comments-grid { display: flex; flex-direction: row; gap: 15px; width: max-content; padding: 5px 5px 20px 5px; }
-
-/* Desain kotak komentar */
+.global-comments-grid { display: flex; flex-direction: row; gap: 15px; width: 100%; padding: 5px 5px 20px 5px; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; overscroll-behavior-x: contain; }
+.global-comments-grid::-webkit-scrollbar { display: none; }
 .global-comment-item { background: rgba(15, 23, 42, 0.6); border: 1px solid rgba(255, 255, 255, 0.05); padding: 15px; border-radius: 12px; min-width: 280px; max-width: 300px; white-space: normal; box-shadow: 0 5px 15px rgba(0,0,0,0.2); transition: transform 0.3s ease; }
 .global-comment-item:hover { transform: translateY(-5px); border-color: rgba(6, 182, 212, 0.3); }
-
 .g-comment-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
 .g-name { color: #06b6d4; font-weight: 600; font-size: 13px; } 
 .g-stars { color: #eab308; font-size: 14px; } 
 .g-text { color: #cbd5e1; font-size: 13px; font-style: italic; line-height: 1.5; }
-
 /* ========================
    ANIMATIONS & KEYFRAMES
    ======================== */
